@@ -81,6 +81,10 @@
       (Type "Report")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (CON1
+      (FullPartName "CON1.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -156,32 +160,21 @@
       (Path "Design Resources" ".\nayeon.dsn")
       (Path "Design Resources" ".\nayeon.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Outputs")
-      (Select "Design Resources" ".\nayeon.dsn" "SCHEMATIC1" "Motor_Power"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 0 200 0 824"))
+        (Placement "44 2 3 -1 -1 -11 -45 0 200 0 824"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -11 -45 38 2171 38 799")
-        (Scroll "-312 0")
-        (Zoom "151")
+        (Placement "44 0 1 -1 -1 -11 -45 76 2209 76 837")
+        (Scroll "-302 0")
+        (Zoom "153")
         (Occurrence "/"))
-      (Path "C:\USERS\EANGG\ONEDRIVE\πŸ≈¡ »≠∏È\ROBOT\SCH\NAYEON.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "Connector"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -11 -45 114 2247 114 875")
-        (Scroll "0 1057")
-        (Zoom "302")
-        (Occurrence "/"))
-      (Path "C:\USERS\EANGG\ONEDRIVE\πŸ≈¡ »≠∏È\ROBOT\SCH\NAYEON.DSN")
+      (Path "C:\PROJECT\NAYEONROBOT\SCH\NAYEON.DSN")
       (Schematic "SCHEMATIC1")
       (Page "Motor_Power")))
   (MPSSessionName "eangg")

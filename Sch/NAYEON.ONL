@@ -1,11 +1,11 @@
 (PCB NAYEON
  (description
-  (timeStamp "2020 03 17 16 45 41")
+  (timeStamp "2020 04 02 05 20 57")
   (program "CAPTURE.EXE" (Version "16.6.0.d001"))
   (source "Original data from OrCAD/CAPTURE schematic")
   (title "")
-  (date "Wednesday, March 18, 2020")
-  (document "D:\\ROBOT\\SCH\\NAYEON.DSN")
+  (date "Thursday, April 02, 2020")
+  (document "C:\\PROJECT\\NAYEONROBOT\\SCH\\NAYEON.DSN")
   (revision "")
   (organization "")
   (address1 "")
@@ -16,6 +16,31 @@
   (pcbfootprintcombine "{PCB Footprint}"))
  (structure )
  (placement
+  (component CON1
+   (place H1
+    (property 
+     ("PCB Footprint" FIX_HOLE_4.0)
+     (timestamp 00007F52)
+     ("Source Package" CON1)
+     (Value CON1)))
+   (place H2
+    (property 
+     ("PCB Footprint" FIX_HOLE_4.0)
+     (timestamp 00007F60)
+     ("Source Package" CON1)
+     (Value CON1)))
+   (place H3
+    (property 
+     ("PCB Footprint" FIX_HOLE_4.0)
+     (timestamp 00007F6E)
+     ("Source Package" CON1)
+     (Value CON1)))
+   (place H4
+    (property 
+     ("PCB Footprint" FIX_HOLE_4.0)
+     (timestamp 00007F7C)
+     ("Source Package" CON1)
+     (Value CON1))))
   (component CON2
    (place J3
     (property 
@@ -184,6 +209,19 @@
      ("Source Package" R)
      (Value 0R/F/2012)))))
  (library
+  (image CON1
+   (property 
+    (sourcelib C:\\CADENCE\\SPB_16.6\\TOOLS\\CAPTURE\\LIBRARY\\CONNECTOR.OLB))
+   (pin 999 1
+    (property 
+     (pinname 1)
+     (pintype 4)
+     (Name 1)
+     (Number 1)
+     ("Swap Id" "-1")
+     (Type Passive)
+     (Order 0)
+     ("Is No Connect" False))))
   (image LM3478MA
    (property 
     (sourcelib "C:\\USERS\\EANGG\\ONEDRIVE\\바탕 화면\\연동장치자료\\SCH\\LIBRARY1.OLB"))
